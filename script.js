@@ -65,5 +65,12 @@ $(document).ready(function () {
   });
 
   //jQuery UI plugin
-  
+  $("#draggable").draggable({
+    axis: "x",
+  });
+  $("#droppable").droppable({
+    drop: function () {
+      alert("Есть контакт");
+    },
+  });
 });

@@ -115,3 +115,23 @@ td {
 
   display: none;
 }
+
+.drop-container {
+  position: relative;
+  height: 200px;
+}
+
+#draggable {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: rgb(153, 0, 255);
+}
+#droppable {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  background: rgb(202, 0, 0);
+}
