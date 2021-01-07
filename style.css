@@ -1,0 +1,99 @@
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/Roboto-Light.ttf);
+}
+
+* {
+  user-select: none;
+}
+
+body {
+  margin-left: 10em;
+  margin-right: 10em;
+  font-family: Roboto;
+  font-size: 115%;
+  color: #282c31;
+  line-height: 150%;
+  background-image: url(bg-light-4857.png);
+  background-repeat: repeat;
+}
+
+.bio {
+  padding: 0 1em 0 1em;
+  text-indent: 2%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+h2 {
+  background: #55616e;
+  text-align: center;
+  padding: 0.4em;
+  color: #f4f7f7;
+  user-select: none;
+}
+
+hr {
+  width: 55%;
+  border: none;
+  background: #848d81;
+  height: 0.5em;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+fieldset {
+  border: 1px solid #282c31;
+  margin-top: -1em;
+  margin-bottom: 1em;
+  margin-right: 0em;
+}
+
+form fieldset {
+  clear: left;
+}
+
+form fieldset label {
+  float: left;
+  width: 10em;
+}
+
+#btn {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  font-size: 115%;
+  color: #55616e;
+}
+
+li {
+  display: inline;
+}
+
+span {
+  display: block;
+}
+
+img {
+  border: 5px solid #55616e;
+  padding: 3px;
+  height: 250px;
+}
+
+table {
+  width: 40%;
+  padding: 0px;
+}
+
+td {
+  vertical-align: top;
+}
+
+#bg_img {
+  position: absolute;
+  padding-left: 1000px;
+}

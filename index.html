@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Персональная страница</title>
+    <link rel="shortcut icon" href="icon.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      a {
+        text-decoration: none;
+        color: #282c31;
+        margin-right: 1em;
+      }
+      a:hover {
+        color: white;
+        background: #7f8a9c;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 style="text-align: center">Адигамов Руслан</h1>
+      <hr />
+      <h2>Оглавление</h2>
+      <nav>
+        <ul>
+          <li><a href="#p1">Основная информация</a></li>
+          <li><a href="#p2">Биография</a></li>
+          <li><a href="#p3">Напиши мне</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h2 id="p1">Основная информация</h2>
+    <table>
+      <tr>
+        <td><img src="фото_3x4.JPG" alt="Фото" /></td>
+        <td style="padding-left: 1em">
+          <b>Имя</b>: Руслан <br />
+          <b>Фамилия</b>: Адигамов<br />
+          <b>Род деятельности</b>: Студент <br />
+        </td>
+      </tr>
+    </table>
+
+    <h2 id="p2">Биография</h2>
+    <div class="bio">
+      <p class="par">
+        <span id="bg_img">Bio</span>
+        <img
+          style="
+            float: right;
+            margin: 0.5em;
+            border: 0;
+            position: relative;
+            z-index: 2;
+          "
+          src="photo_2020-10-06_02-59-17.jpg"
+          height="300"
+          alt="Фото"
+        />
+        <span>Lorem ipsum dolor,</span> sit amet consectetur adipisicing elit.
+        Culpa libero ad inventore modi nemo in quia eum voluptas delectus velit,
+        a provident eveniet deserunt similique mollitia ipsum maxime
+        reprehenderit praesentium quae nisi ut assumenda pariatur. Eum, labore
+        praesentium facilis non illum odit, nisi voluptatum corporis sed cumque
+        molestias vitae fuga minima voluptas reiciendis vero tenetur odio
+        veniam! Itaque inventore iusto natus quisquam quod pariatur non aliquid
+        corporis voluptatum in. Aspernatur magni suscipit, quae nemo error
+        exercitationem recusandae dolorum corporis perspiciatis vel laudantium
+        beatae dolores culpa? Accusamus incidunt animi enim voluptate eum id
+        consectetur ipsum mollitia dolorem. Fuga autem nemo dignissimos aut
+        fugit labore corporis voluptas alias esse, dolor velit vitae itaque
+        nobis quod! Corporis aut consequatur nihil velit placeat recusandae
+        delectus blanditiis ratione voluptas magnam! Reprehenderit rem quia
+        odio, sapiente maiores a impedit adipisci excepturi eveniet sint ipsam
+        ad sunt in officiis? Quam mollitia voluptas iusto sint eos eaque facilis
+        asperiores dolor at, obcaecati, animi aliquam ab? Itaque, possimus
+        quasi. Velit debitis corporis iusto in, nemo saepe voluptate similique,
+        eum dolore ratione ipsum quasi, consectetur libero consequatur veritatis
+        optio suscipit!
+      </p>
+
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus iste vel
+        perferendis sint eveniet dolores rerum laboriosam et iure expedita
+        placeat blanditiis soluta delectus enim porro, eligendi corrupti quidem
+        consequuntur commodi incidunt officiis doloremque ratione id quis? Id
+        debitis ab voluptas fugit molestiae porro aliquam pariatur, suscipit
+        odio! Veniam, aut?
+      </p>
+    </div>
+
+    <footer>
+      <h2 id="p3">Напиши мне</h2>
+      <form action="#">
+        <fieldset>
+          <legend>Введите ваши данные</legend>
+          <p>
+            <label for="email">E-mail: </label>
+            <input id="email" type="email" name="email" />
+          </p>
+          <p>
+            <label for="name">Ваше имя: </label>
+            <input id="name" type="text" name="name" />
+          </p>
+          <p>
+            <label for="message">Письмо: </label>
+            <textarea id="message" name="message" rows="5" cols="30"></textarea>
+          </p>
+          <p><input id="btn" type="submit" value="Отправить" /></p>
+        </fieldset>
+      </form>
+    </footer>
+  </body>
+</html>
