@@ -19,7 +19,7 @@ $(document).ready(function () {
 
   //click(), css()
   $("#btn").click(function () {
-    $("#p3").css("color", "red");
+    $("#p3").css({ color: "red", "font-size": "55px" });
   });
 
   //text()
@@ -42,4 +42,15 @@ $(document).ready(function () {
       $("p").removeClass("yellow");
     },
   });
+
+  //hover(), width(), height()
+  $(".main_photo").hover(
+    function () {
+      $(this).width(400);
+    },
+
+    function () {
+      $(this).height(500);
+    }
+  );
 });
