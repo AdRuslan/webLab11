@@ -55,7 +55,15 @@ $(document).ready(function () {
   );
 
   //slideDown()
-  $("hr").click(function(){
+  $("hr").click(function () {
     $("#slider").slideDown("slow");
-});
+  });
+
+  //jQuery UI widget
+  $(function () {
+    $("#datepicker").datepicker();
+  });
+
+  //jQuery UI plugin
+  
 });
