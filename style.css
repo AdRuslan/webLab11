@@ -104,3 +104,14 @@ td {
   color: yellow;
   background: blue;
 }
+
+#slider {
+  height: 100px;
+  background: rgb(107, 106, 106);
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  font-weight: bold;
+  border-radius: 20px;
+
+  display: none;
+}

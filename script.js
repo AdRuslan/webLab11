@@ -53,4 +53,9 @@ $(document).ready(function () {
       $(this).height(500);
     }
   );
+
+  //slideDown()
+  $("hr").click(function(){
+    $("#slider").slideDown("slow");
+});
 });
