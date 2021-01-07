@@ -24,18 +24,22 @@ $(document).ready(function () {
 
   //text()
   $(".bio p:last-child").click(function () {
-    alert(`Текст этого <p>: ${$(this).text().}`);
+    alert(`Текст этого <p>: ${$(this).text()}`);
   });
-  
+
   //html()
   $(".bio p:first-child").click(function () {
     alert(`html-разметка этого <p>: ${$(this).html()}`);
   });
 
-  //
-  $("ul li:first-child").click(function() {
-      $(this).attr({
-          "href" : ""
-      })
-  })
+  //addClass(), removeClass()
+  $("header h2").on({
+    click: function () {
+      $("p").addClass("yellow");
+    },
+
+    dblclick: function () {
+      $("p").removeClass("yellow");
+    },
+  });
 });
